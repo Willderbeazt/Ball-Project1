@@ -28,5 +28,9 @@ public class Floater : MonoBehaviour {
 				rigidbody.AddForceAtPosition(uplift, actionPoint);
 			}
 		}
+		else if(movement.currentMaterial == BallMove.BallMaterial.Sandpaper)
+		{
+			print ("Dead?");
+		}
 	}
 }

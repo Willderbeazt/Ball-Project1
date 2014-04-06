@@ -45,7 +45,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BallMove.cs" />
-     <Compile Include="Assets\Scripts\Fall.cs" />
+     <Compile Include="Assets\Scripts\FallFloat.cs" />
      <Compile Include="Assets\Scripts\Floater.cs" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
   </ItemGroup>

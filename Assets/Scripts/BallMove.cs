@@ -28,6 +28,7 @@ public class BallMove : MonoBehaviour
 	
 	public PhysicMaterial Bouncer;
 	public PhysicMaterial Metal;
+	public PhysicMaterial Paper;
 	
 	KeyCode currentKey;
 	KeyCode previousKey;
@@ -99,10 +100,15 @@ public class BallMove : MonoBehaviour
 					currentMaterial = BallMaterial.Metal;
 					collider.material = Metal;
 				}
-				else
+				else if(currentMaterial == BallMaterial.Sandpaper)
 				{
 					currentMaterial = BallMaterial.Rubber;
 					collider.material = Bouncer;
+				}
+				else
+				{
+					currentMaterial = BallMaterial.Sandpaper;
+					collider.material = Paper;
 				}
 			}
 		}
