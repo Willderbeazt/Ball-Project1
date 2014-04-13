@@ -1,16 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Win.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayNear.cs">
     <Files>
-      <File FileName="Assets\Scripts\PathLighting.cs" Line="18" Column="4" />
-      <File FileName="Assets\Scripts\FallFloat.cs" Line="15" Column="6" />
+      <File FileName="Assets\Scripts\PlayNear.cs" Line="13" Column="64" />
+      <File FileName="Assets\Scripts\PathLighting.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FallFloat.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\BallMove.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Floater.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GrowShrink.cs" Line="16" Column="26" />
-      <File FileName="Assets\Scripts\SeeThrough.cs" Line="14" Column="20" />
-      <File FileName="Assets\Scripts\CamSeeThrough.cs" Line="28" Column="4" />
-      <File FileName="Assets\Scripts\Home.cs" Line="5" Column="2" />
-      <File FileName="Assets\Scripts\Win.cs" Line="8" Column="17" />
+      <File FileName="Assets\Scripts\GrowShrink.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CamSeeThrough.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Home.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

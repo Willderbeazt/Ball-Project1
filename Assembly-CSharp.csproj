@@ -51,13 +51,17 @@
      <Compile Include="Assets\Scripts\GrowShrink.cs" />
      <Compile Include="Assets\Scripts\Home.cs" />
      <Compile Include="Assets\Scripts\PathLighting.cs" />
+     <Compile Include="Assets\Scripts\PlayNear.cs" />
      <Compile Include="Assets\Scripts\SeeThrough.cs" />
      <Compile Include="Assets\Scripts\Win.cs" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{2D4303C9-56AF-9571-54C3-D83EBCB4BFDF}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{022FE346-61BE-B738-F794-72C92429DCA9}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

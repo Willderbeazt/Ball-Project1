@@ -51,9 +51,14 @@
      <Compile Include="Assets\Scripts\GrowShrink.cs" />
      <Compile Include="Assets\Scripts\Home.cs" />
      <Compile Include="Assets\Scripts\PathLighting.cs" />
+     <Compile Include="Assets\Scripts\PlayNear.cs" />
      <Compile Include="Assets\Scripts\SeeThrough.cs" />
      <Compile Include="Assets\Scripts\Win.cs" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
